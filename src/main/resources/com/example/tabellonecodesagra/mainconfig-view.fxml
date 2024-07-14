@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tabellonecodesagra.TabelloneCodeSagraController">
+   <top>
+      <VBox BorderPane.alignment="CENTER">
+         <StackPane prefHeight="40.0" styleClass="stack-pane-cell" stylesheets="@../../../style.css">
+            <Label styleClass="label-cell-style" stylesheets="@../../../style.css" text="Successione numeri">
+               <font>
+                  <Font size="35.0" />
+               </font>
+            </Label>
+         </StackPane>
+         <HBox prefHeight="100.0" prefWidth="200.0">
+            <children>
+               <StackPane prefHeight="150.0" prefWidth="200.0" styleClass="stack-pane-cell" stylesheets="@../../../style.css">
+                  <children>
+                     <Label fx:id="numero1" alignment="CENTER" prefWidth="1215.0" styleClass="label-cell-style" stylesheets="@../../../style.css" text="a">
+                        <font>
+                           <Font name="System Bold" size="80.0" />
+                        </font>
+                        <textFill>
+                           <Color fx:constant="BLUE" />
+                        </textFill>
+                     </Label>
+                  </children>
+               </StackPane>
+               <StackPane prefHeight="150.0" prefWidth="200.0" styleClass="stack-pane-cell" stylesheets="@../../../style.css">
+                  <children>
+                     <Label fx:id="numero2" alignment="CENTER" prefWidth="1215.0" styleClass="label-cell-style" stylesheets="@../../../style.css" text="b">
+                        <font>
+                           <Font name="System Bold" size="80.0" />
+                        </font>
+                        <textFill>
+                           <Color fx:constant="BLUE" />
+                        </textFill>
+                     </Label>
+                  </children></StackPane>
+               <StackPane prefHeight="150.0" prefWidth="200.0" styleClass="stack-pane-cell" stylesheets="@../../../style.css">
+                  <children>
+                     <Label fx:id="numero3" alignment="CENTER" prefWidth="1215.0" styleClass="label-cell-style" stylesheets="@../../../style.css" text="c">
+                        <font>
+                           <Font name="System Bold" size="80.0" />
+                        </font>
+                        <textFill>
+                           <Color fx:constant="BLUE" />
+                        </textFill>
+                     </Label>
+                  </children></StackPane>
+               <StackPane prefHeight="150.0" prefWidth="200.0" styleClass="stack-pane-cell" stylesheets="@../../../style.css">
+                  <children>
+                     <Label fx:id="numero4" alignment="CENTER" prefWidth="1215.0" styleClass="label-cell-style" stylesheets="@../../../style.css" text="d">
+                        <font>
+                           <Font name="System Bold" size="80.0" />
+                        </font>
+                        <textFill>
+                           <Color fx:constant="BLUE" />
+                        </textFill>
+                     </Label>
+                  </children></StackPane>
+            </children>
+         </HBox>
+      </VBox>
+   </top>
+   <center>
+      <StackPane prefHeight="163.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" styleClass="next-button" stylesheets="@../../../style.css" text="Prossimo Numero" />
+         </children>
+      </StackPane>
+   </center>
+   <bottom>
+      <StackPane prefHeight="273.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+         <children>
+              <Button mnemonicParsing="false" onAction="#openSecondaryStage" text="Posiziona Monitor Numeri">
+        </Button>
+         </children>
+      </StackPane>
+   </bottom>
+</BorderPane>

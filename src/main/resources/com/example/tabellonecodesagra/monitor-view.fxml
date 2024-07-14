@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<GridPane fx:id="gridPane" minHeight="600.0" minWidth="800.0" prefHeight="600.0" prefWidth="800.0" stylesheets="@../../../style.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tabellonecodesagra.SecondMonitorController">
+    <columnConstraints>
+        <ColumnConstraints percentWidth="75.0" />
+        <ColumnConstraints percentWidth="25.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints percentHeight="33.33" />
+        <RowConstraints percentHeight="33.33" />
+        <RowConstraints percentHeight="33.33" />
+    </rowConstraints>
+
+    <StackPane GridPane.columnIndex="0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0" GridPane.vgrow="ALWAYS">
+        <Label prefWidth="1215.0" text="STIAMO SERVENDO IL ">
+            <font>
+                <Font name="System Bold" size="80.0" />
+            </font>
+            <textFill>
+                <Color fx:constant="BLUE" />
+            </textFill>
+        </Label>
+    </StackPane>
+   <StackPane GridPane.rowIndex="1" GridPane.rowSpan="2">
+      <children>
+         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      </children>
+   </StackPane>
+   <StackPane GridPane.columnIndex="1">
+      <children>
+         <Label prefWidth="1215.0" text="3">
+            <font>
+               <Font name="System Bold" size="80.0" />
+            </font>
+            <textFill>
+               <Color fx:constant="BLUE" />
+            </textFill>
+         </Label>
+      </children>
+   </StackPane>
+   <StackPane layoutX="10.0" layoutY="10.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+      <children>
+         <Label prefWidth="1215.0" text="3">
+            <font>
+               <Font name="System Bold" size="80.0" />
+            </font>
+            <textFill>
+               <Color fx:constant="BLUE" />
+            </textFill>
+         </Label>
+      </children>
+   </StackPane>
+   <StackPane GridPane.columnIndex="1" GridPane.rowIndex="2">
+      <children>
+         <Label prefWidth="1215.0" text="3">
+            <font>
+               <Font name="System Bold" size="80.0" />
+            </font>
+            <textFill>
+               <Color fx:constant="BLUE" />
+            </textFill>
+         </Label>
+      </children>
+   </StackPane>
+</GridPane>
