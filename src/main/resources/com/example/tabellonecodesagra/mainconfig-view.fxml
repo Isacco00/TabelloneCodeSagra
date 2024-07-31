@@ -23,7 +23,7 @@
             <children>
                <StackPane prefHeight="150.0" prefWidth="200.0" styleClass="stack-pane-cell" stylesheets="@../../../style.css">
                   <children>
-                     <Label fx:id="numero1" alignment="CENTER" prefWidth="1215.0" styleClass="label-cell-style" stylesheets="@../../../style.css" text="a">
+                     <Label fx:id="numero1" alignment="CENTER" prefWidth="1215.0" styleClass="label-cell-style" stylesheets="@../../../style.css" text="-">
                         <font>
                            <Font name="System Bold" size="80.0" />
                         </font>
@@ -35,7 +35,7 @@
                </StackPane>
                <StackPane prefHeight="150.0" prefWidth="200.0" styleClass="stack-pane-cell" stylesheets="@../../../style.css">
                   <children>
-                     <Label fx:id="numero2" alignment="CENTER" prefWidth="1215.0" styleClass="label-cell-style" stylesheets="@../../../style.css" text="b">
+                     <Label fx:id="numero2" alignment="CENTER" prefWidth="1215.0" styleClass="label-cell-style" stylesheets="@../../../style.css" text="-">
                         <font>
                            <Font name="System Bold" size="80.0" />
                         </font>
@@ -46,7 +46,7 @@
                   </children></StackPane>
                <StackPane prefHeight="150.0" prefWidth="200.0" styleClass="stack-pane-cell" stylesheets="@../../../style.css">
                   <children>
-                     <Label fx:id="numero3" alignment="CENTER" prefWidth="1215.0" styleClass="label-cell-style" stylesheets="@../../../style.css" text="c">
+                     <Label fx:id="numero3" alignment="CENTER" prefWidth="1215.0" styleClass="label-cell-style" stylesheets="@../../../style.css" text="-">
                         <font>
                            <Font name="System Bold" size="80.0" />
                         </font>
@@ -57,7 +57,7 @@
                   </children></StackPane>
                <StackPane prefHeight="150.0" prefWidth="200.0" styleClass="stack-pane-cell" stylesheets="@../../../style.css">
                   <children>
-                     <Label fx:id="numero4" alignment="CENTER" prefWidth="1215.0" styleClass="label-cell-style" stylesheets="@../../../style.css" text="d">
+                     <Label fx:id="numero4" alignment="CENTER" prefWidth="1215.0" styleClass="label-cell-style" stylesheets="@../../../style.css" text="-">
                         <font>
                            <Font name="System Bold" size="80.0" />
                         </font>

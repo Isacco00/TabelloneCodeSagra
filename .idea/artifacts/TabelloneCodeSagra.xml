@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="TabelloneCodeSagra">
+    <output-path>$PROJECT_DIR$/out/artifacts/TabelloneCodeSagra</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="com.example.tabellonecodesagra.TabelloneCodeSagra" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="TabelloneCodeSagra" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="TabelloneCodeSagra.jar">
+        <element id="module-output" name="TabelloneCodeSagra" />
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -11,13 +11,14 @@
 
 <GridPane fx:id="gridPane" minHeight="600.0" minWidth="800.0" prefHeight="600.0" prefWidth="800.0" stylesheets="@../../../style.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tabellonecodesagra.SecondMonitorController">
     <columnConstraints>
-        <ColumnConstraints percentWidth="75.0" />
-        <ColumnConstraints percentWidth="25.0" />
+        <ColumnConstraints percentWidth="33.33" />
+        <ColumnConstraints percentWidth="33.33" />
+        <ColumnConstraints percentWidth="33.33" />
     </columnConstraints>
     <rowConstraints>
-        <RowConstraints percentHeight="33.33" />
-        <RowConstraints percentHeight="33.33" />
-        <RowConstraints percentHeight="33.33" />
+        <RowConstraints percentHeight="40" />
+        <RowConstraints percentHeight="30" />
+        <RowConstraints percentHeight="30" />
     </rowConstraints>
 
     <StackPane GridPane.columnIndex="0" GridPane.hgrow="ALWAYS" GridPane.rowIndex="0" GridPane.vgrow="ALWAYS">

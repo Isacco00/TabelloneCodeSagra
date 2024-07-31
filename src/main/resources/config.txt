@@ -1,0 +1,2 @@
+mainTitleMultiplier=0.3
+numeroCassa=3

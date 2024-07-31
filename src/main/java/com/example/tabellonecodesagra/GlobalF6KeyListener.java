@@ -3,15 +3,15 @@ package com.example.tabellonecodesagra;
 import com.github.kwhat.jnativehook.keyboard.NativeKeyEvent;
 import com.github.kwhat.jnativehook.keyboard.NativeKeyListener;
 
-public class GlobalF7KeyListener implements NativeKeyListener {
+public class GlobalF6KeyListener implements NativeKeyListener {
 
     @Override
     public void nativeKeyPressed(NativeKeyEvent e) {
-        if (e.getKeyCode() == NativeKeyEvent.VC_F7) {
+        if (e.getKeyCode() == NativeKeyEvent.VC_F6) {
             DatabaseManager dbManager = null;
             try {
                 dbManager = new DatabaseManager();
-                dbManager.insertNumber(3);
+                dbManager.insertNumber(2);
             } finally {
                 if (dbManager != null) {
                     dbManager.destroy();

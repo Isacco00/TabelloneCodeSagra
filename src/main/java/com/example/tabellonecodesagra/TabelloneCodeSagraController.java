@@ -25,13 +25,12 @@ public class TabelloneCodeSagraController {
     @FXML
     private Label numero4;
 
-    @FXML
-    public void initialize() {
+    public void runPreliminary(Integer numeroCassa) {
         DatabaseManager dbManager = null;
         try {
             dbManager = new DatabaseManager();
-            dbManager.loadNumbers(Arrays.asList(numero1, numero2, numero3, numero4));
-            dbManager.interceptor(Arrays.asList(numero1, numero2, numero3, numero4));
+            dbManager.loadNumbers(Arrays.asList(numero1, numero2, numero3, numero4),numeroCassa);
+            dbManager.interceptor(Arrays.asList(numero1, numero2, numero3, numero4),numeroCassa);
         } catch (Exception ex){
             if (dbManager != null) {
                 dbManager.destroy();
